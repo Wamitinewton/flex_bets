@@ -5,7 +5,6 @@ import 'package:betting_app/Screens/AuthScreens/add_photo_screen.dart';
 import 'package:betting_app/helpers/screen_navigation.dart';
 import 'package:betting_app/helpers/utils.dart';
 import 'package:betting_app/common/widgets/custom_textfield.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import '../../helpers/constant.dart';
 import '../../common/widgets/custom_button.dart';
@@ -152,9 +151,9 @@ class _SignpScreenState extends State<SignpScreen> {
                 const Text('Continue with',
                     style: TextStyle(color: Colors.grey, fontSize: 17)),
                 const SizedBox(height: 15),
-                Row(
+                const Row(
                     mainAxisAlignment: MainAxisAlignment.center,
-                    children: const []),
+                    children: []),
                 const SizedBox(
                   height: 10,
                 ),

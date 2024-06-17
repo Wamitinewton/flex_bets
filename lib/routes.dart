@@ -1,12 +1,12 @@
+
+import 'package:betting_app/Screens/AuthScreens/email_verification_screen.dart';
+import 'package:betting_app/Screens/AuthScreens/forgot_password_screen.dart';
+import 'package:betting_app/Screens/AuthScreens/login_screen.dart';
+import 'package:betting_app/Screens/AuthScreens/signup_screen.dart';
+import 'package:betting_app/Screens/AuthScreens/success_screen.dart';
+import 'package:betting_app/Screens/bottom_navigation_screens/bottom_navigation_screen.dart';
 import 'package:betting_app/Screens/bottom_navigation_screens/earn_screens/invite_friends.dart';
 import 'package:flutter/material.dart';
-
-import 'Screens/AuthScreens/email_verification_screen.dart';
-import 'Screens/AuthScreens/login_screen.dart';
-import 'Screens/AuthScreens/signup_screen.dart';
-import 'Screens/AuthScreens/success_screen.dart';
-import 'Screens/AuthScreens/forgot_password_screen.dart';
-import 'Screens/bottom_navigation_screens/bottom_navigation_screen.dart';
 
 Map<String, Widget Function(BuildContext)> routes = {
   BottomNavigationScreen.id: (context) => const BottomNavigationScreen(),

@@ -1,9 +1,9 @@
+import 'package:betting_app/Screens/bottom_navigation_screens/earn_screens/bet_card_screen.dart';
 import 'package:betting_app/helpers/constant.dart';
 import 'package:betting_app/helpers/screen_navigation.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 
-import 'bet_card_screen.dart';
 
 class VerifyBetSCreen extends StatelessWidget {
   const VerifyBetSCreen({super.key});

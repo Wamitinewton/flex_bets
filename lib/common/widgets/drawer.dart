@@ -1,5 +1,6 @@
 import 'package:betting_app/Screens/DrawerScreens/referal_code_screen.dart';
 import 'package:betting_app/Screens/DrawerScreens/settings_screen.dart';
+import 'package:betting_app/Screens/sports/eventseason/view.dart';
 import 'package:betting_app/helpers/constant.dart';
 import 'package:betting_app/helpers/screen_navigation.dart';
 import 'package:betting_app/provider/user_provider.dart';
@@ -71,7 +72,19 @@ class _DrawerrState extends State<Drawerr> {
                 Navigator.pop(context);
                 Navigator.pushNamed(context, LoginScreen.id);
               },
-            )
+            ),
+            ListTile(
+              leading: const Icon(Icons.settings_outlined),
+              title: const Text('Event sports'),
+              onTap: () {
+                changeScreen(
+                    context,
+                    EventScreen(
+                      user: widget.user,
+                      userProvider: userProvider,
+                    ));
+              },
+            ),
           ],
         ));
   }

@@ -1,6 +1,7 @@
 import 'package:betting_app/Screens/splash_screen.dart';
 import 'package:betting_app/Screens/sports/eventseason/controller.dart';
 import 'package:betting_app/provider/user_provider.dart';
+
 import 'package:betting_app/routes.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
